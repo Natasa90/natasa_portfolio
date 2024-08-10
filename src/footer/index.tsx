@@ -13,7 +13,7 @@ const footerStyles: Record<string, Style>= {
         marginBottom: '10px', 
         display: 'flex',
         justifyContent: 'center',
-        gap: '15px'
+        gap: '40px'
     },
 
     socialLink: {

@@ -2,7 +2,7 @@ const LayoutStyle = {
     fontSize: '22px',
     display: 'flex',
     flexFlow: 'column wrap',
-    marginLeft: '8rem',
+    marginLeft: '5rem',
     paddingBottom: '2rem'
 };
 
