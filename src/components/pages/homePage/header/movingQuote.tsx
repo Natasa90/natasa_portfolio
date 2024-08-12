@@ -5,7 +5,7 @@ export const Quote: FC = () => {
     return (
       <div className="quote-container">
         <p className="quote-text">
-        "Success is not the result of spontaneous combustion. You must set yourself on fire." — Arnold H. Glasow
+        "Code is like humor. When you have to explain it, it’s bad." — Cory House
         </p>
       </div>
     );

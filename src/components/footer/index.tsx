@@ -1,3 +1,7 @@
+import { Instagram } from './icons/instagram';
+import { Facebook } from './icons/facebook';
+import { TwitterX } from './icons/twitter-x';
+import { LinkedIn } from './icons/linkedin';
 import { FC } from 'react'
 type Style = React.CSSProperties
 
@@ -5,12 +9,12 @@ const footerStyles: Record<string, Style>= {
     footer: {
         backgroundColor: '#333',
         color: '#fff',
-        padding: '20px 0',
+        padding: '8px 0',
         textAlign: 'center'
     },
 
     socialLinks: {
-        marginBottom: '10px', 
+        margin: '20px', 
         display: 'flex',
         justifyContent: 'center',
         gap: '40px'
@@ -27,6 +31,7 @@ const footerStyles: Record<string, Style>= {
     },
 
     copyright: {
+        padding: '10px',
         fontSize: '30px'
     }
 };
@@ -35,13 +40,13 @@ export const Footer: FC = () => {
     return (
         <footer style={footerStyles.footer}>
         <div style={footerStyles.socialLinks}>
-            <i className="fa fa-facebook-square" style={{ fontSize: '56px' }}></i>
-            <i className="fa fa-instagram" style={{ fontSize: '56px' }}></i>
-            <i className="fa fa-twitter" style={{ fontSize: '56px' }}></i>
-            <i className="fa fa-linkedin-square" style={{ fontSize: '56px' }}></i>      
+            <Instagram/>
+            <Facebook/>
+            <LinkedIn/>
+            <TwitterX/>
         </div>
         <div style={footerStyles.copyright}>
-            &copy; Natasa Stefanovic
+            &copy;<em>2024 Natasa Stefanovic</em>
         </div>
     </footer>
     );

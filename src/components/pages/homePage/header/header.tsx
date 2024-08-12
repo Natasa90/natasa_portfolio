@@ -74,17 +74,30 @@ export const Header: FC = () => {
     return (
         <div style={headerStyles.top}>               
         <div style={headerStyles.columnOne}>
-            <h1>Hi, I am Natasa,<br/><small> A Front End Engineer!</small></h1>
+        <h1>Hi, I'm Natasa, 
+            <p><small className="text-muted">A Front-End Developer!</small>
+            </p>
+        </h1>
             <p style={headerStyles.topText}>Welcome to my portfolio! <br/>I'm a passionate front-end developer who thrives on<br/> crafting beautiful, intuitive web experiences. Explore my work <br/>and see how I bring code to life with creativity and precision.
             </p>
             <div style={tableStyles.container}>
                 <div style={tableStyles.header}>TOOLS</div>
                 <div style={tableStyles.table}>
-                    <div style={tableStyles.item} className='glow'>HTML</div>
-                    <div style={tableStyles.item} className='glow'>CSS</div>
+                    <a href='https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics' target='_blank' style={{textDecoration: 'none'}}>
+                        <div style={tableStyles.item} className='glow'>HTML</div>
+                    </a>
+                    <a href='https://developer.mozilla.org/en-US/docs/Web/CSS' target='_blank' style={{textDecoration: 'none'}}>
+                        <div style={tableStyles.item} className='glow'>CSS</div>
+                    </a>
+                    <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript' target='_blank' style={{textDecoration: 'none'}}>
                     <div style={tableStyles.item} className='glow'>JavaScript</div>
-                    <div style={tableStyles.item} className='glow'>React</div>
-                    <div style={tableStyles.item} className='glow'>TypeScript</div>
+                    </a>
+                    <a href='https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started' target='_blank' style={{textDecoration: 'none'}}>
+                        <div style={tableStyles.item} className='glow'>React</div>
+                    </a>
+                    <a href='https://developer.mozilla.org/en-US/docs/Glossary/TypeScript' target='_blank' style={{textDecoration: 'none'}}>
+                        <div style={tableStyles.item} className='glow'>TypeScript</div>
+                    </a>
                 </div>
             </div>
         </div>  
