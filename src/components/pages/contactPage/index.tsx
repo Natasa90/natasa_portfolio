@@ -1,6 +1,7 @@
 import { FC, useState, ChangeEvent } from 'react'
 import './input.styles.css'
 import { Input } from './inputs/input'
+import { TypingText } from './typingText.tsx'
 
 export const FormData: FC = () => { 
 
@@ -75,6 +76,9 @@ export const FormData: FC = () => {
             />
           </div>
           <button className='submit-button' onClick={handleSubmit}>Submit</button>
+          <div className='typing-text-box'>
+            <TypingText/>
+          </div>
         </div>
         <div className='contact-info'>
             <h2>Get in touch</h2>
