@@ -5,8 +5,9 @@ type Style = React.CSSProperties
 const myWorkStyles: Record<string, Style> = {
     bottom: {
         backgroundColor: 'rgba(255, 255, 255, 1)',
-        borderRight: '1px solid gray',
-        marginRight: '200px'
+        borderRight: '3px solid gray',
+        marginRight: '200px',
+        marginLeft: '5rem'
     },
     featured: {
         textAlign: 'center',
@@ -15,7 +16,7 @@ const myWorkStyles: Record<string, Style> = {
         fontSize: '35px',
         lineHeight: '1.6',
         fontWeight: '700',
-        borderTop: '1px solid gray'
+        borderTop: '3px solid gray'
     },
     bottomImage: {
         width: '246px',

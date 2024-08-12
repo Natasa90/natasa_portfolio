@@ -10,6 +10,7 @@ const headerStyles: Record<string, Style> = {
         flexWrap: 'wrap',
         justifyContent: 'start',
         marginTop: '6rem',
+        marginLeft: '5rem'
     },
     topText: {
         marginTop: '2rem',
@@ -30,7 +31,7 @@ const headerStyles: Record<string, Style> = {
         width: '450px',
         height: '443px',
         borderRadius: '50%',
-        border: '2px solid  #aaa8a8',
+        border: '3px solid  #aaa8a8',
         boxShadow: '-4px 10px #EDF7FA',
     }
 };
