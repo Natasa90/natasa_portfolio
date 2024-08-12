@@ -94,10 +94,12 @@ export const FormData: FC = () => {
                 <span>natasa.golubovic90@gmail.com</span>
             </div>
             <div className='info-item-location'>
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-              <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
-              </svg>
-                <span>Location</span>
+                <div className='row-info-item'>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+                    </svg>
+                    <span>Location</span>
+                </div>
             <iframe 
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2962.610031179395!2d-87.86716092499164!3d42.05154195453871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fb7f08a5e2e5d%3A0x9b0254fbd2b168!2s9449%20Bay%20Colony%20Dr%2C%20Des%20Plaines%2C%20IL%2060016%2C%20USA!5e0!3m2!1sen!2srs!4v1723335900596!5m2!1sen!2srs" 
                 width="500" 

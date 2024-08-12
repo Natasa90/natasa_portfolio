@@ -1,5 +1,5 @@
 import { FC } from 'react'
-import './movingQuote.styles.css'
+import './movingQuote.style.css'
 
 export const Quote: FC = () => {
     return (

@@ -1,6 +1,6 @@
 import { FC } from 'react'
-import './glowingTools.css'
-import profilePhoto from './images/profile.jpg'
+import './glowingTools.styles.css'
+
 
 type Style = React.CSSProperties
 
@@ -90,7 +90,7 @@ export const Header: FC = () => {
         </div>  
           
         <div style={headerStyles.columnTwo}>
-            <img style={headerStyles.profilePhoto} src={profilePhoto} alt="profile photo" />
+            <img style={headerStyles.profilePhoto} alt="profile photo" />
         </div>
     </div>  
     )
