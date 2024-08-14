@@ -1,5 +1,6 @@
 import { FC } from 'react'
 import './glowingTools.styles.css'
+import { DownloadButton } from './resumeButton/index'
 
 
 type Style = React.CSSProperties
@@ -38,21 +39,22 @@ const headerStyles: Record<string, Style> = {
 
 const tableStyles: Record<string, Style> = {
     container: {
+        textAlign: 'center',
+        padding: '16px',
+        backgroundColor: '#f4f4f9',
         display: 'grid',
         gridTemplateColumns: '1fr', 
         gap: '8px',
-        backgroundColor: '#fff',
-        padding: '16px',
         border: '1px solid #ddd',
-        borderRadius: '8px',
+        borderRadius: '10px',
         width: 'fit-content', 
-        marginBottom: '80px'
+        marginBottom: '80px',
+        boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)'
     },
     header: {
         fontWeight: 'bold',
-        backgroundColor: '#f7f7f7',
+        color: '#333',
         padding: '8px',
-        borderBottom: '1px solid #ddd',
         textAlign: 'center', 
     },
     table: {
@@ -65,8 +67,12 @@ const tableStyles: Record<string, Style> = {
         padding: '16px',
         border: '1px solid #ddd',
         borderRadius: '8px',
-        backgroundColor: 'black',
+    backgroundColor: '#222',
+        color: '#fff',
         textAlign: 'center',
+        fontSize: '1.2em',
+        transition: 'transform 0.3s ease, box-shadow 0.3s ease',
+        boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
     },
 };
 
@@ -80,6 +86,7 @@ export const Header: FC = () => {
         </h1>
             <p style={headerStyles.topText}>Welcome to my portfolio! <br/>I'm a passionate front-end developer who thrives on<br/> crafting beautiful, intuitive web experiences. Explore my work <br/>and see how I bring code to life with creativity and precision.
             </p>
+            <DownloadButton/>
             <div style={tableStyles.container}>
                 <div style={tableStyles.header}>TOOLS</div>
                 <div style={tableStyles.table}>
@@ -101,7 +108,6 @@ export const Header: FC = () => {
                 </div>
             </div>
         </div>  
-          
         <div style={headerStyles.columnTwo}>
             <img style={headerStyles.profilePhoto} alt="profile photo" />
         </div>

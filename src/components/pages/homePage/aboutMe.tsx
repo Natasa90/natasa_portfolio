@@ -4,7 +4,8 @@ type Style = React.CSSProperties
 
 const styles: Record<string, Style> = {
     container: {
-      padding: '20px 0 50px 50px',
+      textAlign: 'justify',
+      padding: '20px 30px 50px 50px',
       maxWidth: '800px',
       margin: '0 auto',
       lineHeight: '1.6',

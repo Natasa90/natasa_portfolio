@@ -9,8 +9,10 @@
     display: grid;
     gap: 15px;
     margin-top: 20px;
-    padding: 20px 20px 200px 20px;
+    margin-right: 30px;
+    padding: 20px 60px 100px 20px;
     max-width: 800px; 
+    border-right: 1px solid rgb(82, 82, 109);
 }
 
 .input-group {
@@ -60,7 +62,7 @@
 .contact-info {
     flex: 1;
     max-width: 550px; 
-    margin-left: 100px;
+    margin-left: 30px;
     margin-top: 5px;
     padding: 20px;
     display: flex;
@@ -116,9 +118,51 @@
     width: min-content;
 }
 
-/* Media Queries for Responsive Design */
+.buttonDiv {
+    display: flex; 
+    flex-direction: row; 
+}
 
-/* Mobile Devices: min-width 320px */
+.arrow {
+    transform: translate(-50%, -50%);
+    transform: rotate(90deg);
+    cursor: pointer;
+    margin: 20px 0 0 50px;
+}
+
+.arrow span {
+    display: block;
+    width: 1.5vw;
+    height: 1.5vw;
+    border-bottom: 5px solid rgb(70, 41, 41);
+    border-right: 5px solid rgb(100, 63, 63);
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animate 2s infinite;
+}
+
+.arrow span:nth-child(2) {
+    animation-delay: -0.2s;
+}
+
+.arrow span:nth-child(3) {
+    animation-delay: -0.4s;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px, -20px);
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: rotate(45deg) translate(20px, 20px);
+    }
+}
+
 @media (max-width: 767px) {
     .page-container {
         flex-direction: column;
@@ -130,8 +174,6 @@
         align-items: start;
         margin-left: 0; 
         padding-right: 20px;
-        border-right: 1px solid rgb(93, 93, 129);
-
     }
     
     .form-container {
@@ -140,5 +182,14 @@
         border-bottom: 1px solid rgb(93, 93, 129);
         padding: 40px 40px 40px 50px; 
         margin-top: 0; 
+    }
+    .arrow {
+        transform: rotate(90deg) translate(-30%, -30%);
+    }
+    .arrow span {
+        width: 0.8vw;
+        height: 0.8vw;
+        border-bottom: 2px solid rgb(70, 41, 41);
+        border-right: 2px solid rgb(100, 63, 63);
     }
 }

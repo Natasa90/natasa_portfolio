@@ -4,6 +4,8 @@
     overflow: hidden; /* Hide the overflow to create the typing effect */
     border-right: 2px solid black; /* Create a cursor effect */
     animation: typing 4s steps(30, end), blink-caret .75s step-end infinite;
+    font-size: 2rem;
+    margin-top: 10px;
   }
   
   @keyframes typing {

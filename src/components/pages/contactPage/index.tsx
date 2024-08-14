@@ -75,7 +75,14 @@ export const FormData: FC = () => {
                 cols={50}
             />
           </div>
-          <button className='submit-button' onClick={handleSubmit}>Submit</button>
+          <div className='buttonDiv'>
+            <button className='submit-button' onClick={handleSubmit}>Submit</button>
+            <div className="arrow">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+          </div>
           <div className='typing-text-box'>
             <TypingText/>
           </div>
@@ -104,7 +111,8 @@ export const FormData: FC = () => {
                     </svg>
                     <span>Location</span>
                 </div>
-            <iframe 
+            <div className='map'>
+              <iframe 
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2962.610031179395!2d-87.86716092499164!3d42.05154195453871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fb7f08a5e2e5d%3A0x9b0254fbd2b168!2s9449%20Bay%20Colony%20Dr%2C%20Des%20Plaines%2C%20IL%2060016%2C%20USA!5e0!3m2!1sen!2srs!4v1723335900596!5m2!1sen!2srs" 
                 width="500" 
                 height="300" 
@@ -112,7 +120,8 @@ export const FormData: FC = () => {
                 allowFullScreen={true} 
                 loading="lazy" 
                 referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
+              ></iframe>
+            </div>
             </div>
         </div>
       </div>
