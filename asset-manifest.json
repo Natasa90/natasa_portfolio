@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Natasa90/Porftolio-/static/css/main.a296b83c.css",
-    "main.js": "/Natasa90/Porftolio-/static/js/main.d8cdea01.js",
-    "static/js/952.e49b6ad9.chunk.js": "/Natasa90/Porftolio-/static/js/952.e49b6ad9.chunk.js",
-    "static/js/453.fdd8400e.chunk.js": "/Natasa90/Porftolio-/static/js/453.fdd8400e.chunk.js",
-    "static/media/bookClub.png": "/Natasa90/Porftolio-/static/media/bookClub.1dcad027f8c1fb9498b1.png",
-    "static/media/recipes.png": "/Natasa90/Porftolio-/static/media/recipes.f608fefef7f839587365.png",
-    "static/media/fitnessApp.png": "/Natasa90/Porftolio-/static/media/fitnessApp.21c028a7736c5adca860.png",
-    "index.html": "/Natasa90/Porftolio-/index.html",
-    "main.a296b83c.css.map": "/Natasa90/Porftolio-/static/css/main.a296b83c.css.map",
-    "main.d8cdea01.js.map": "/Natasa90/Porftolio-/static/js/main.d8cdea01.js.map",
-    "952.e49b6ad9.chunk.js.map": "/Natasa90/Porftolio-/static/js/952.e49b6ad9.chunk.js.map",
-    "453.fdd8400e.chunk.js.map": "/Natasa90/Porftolio-/static/js/453.fdd8400e.chunk.js.map"
+    "main.css": "/natasa_portfolio/static/css/main.a296b83c.css",
+    "main.js": "/natasa_portfolio/static/js/main.e6334bd8.js",
+    "static/js/952.e49b6ad9.chunk.js": "/natasa_portfolio/static/js/952.e49b6ad9.chunk.js",
+    "static/js/453.fdd8400e.chunk.js": "/natasa_portfolio/static/js/453.fdd8400e.chunk.js",
+    "static/media/bookClub.png": "/natasa_portfolio/static/media/bookClub.1dcad027f8c1fb9498b1.png",
+    "static/media/recipes.png": "/natasa_portfolio/static/media/recipes.f608fefef7f839587365.png",
+    "static/media/fitnessApp.png": "/natasa_portfolio/static/media/fitnessApp.21c028a7736c5adca860.png",
+    "index.html": "/natasa_portfolio/index.html",
+    "main.a296b83c.css.map": "/natasa_portfolio/static/css/main.a296b83c.css.map",
+    "main.e6334bd8.js.map": "/natasa_portfolio/static/js/main.e6334bd8.js.map",
+    "952.e49b6ad9.chunk.js.map": "/natasa_portfolio/static/js/952.e49b6ad9.chunk.js.map",
+    "453.fdd8400e.chunk.js.map": "/natasa_portfolio/static/js/453.fdd8400e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a296b83c.css",
-    "static/js/main.d8cdea01.js"
+    "static/js/main.e6334bd8.js"
   ]
 }
