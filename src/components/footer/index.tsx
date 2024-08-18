@@ -2,8 +2,9 @@ import { Instagram } from './icons/instagram';
 import { Facebook } from './icons/facebook';
 import { TwitterX } from './icons/twitter-x';
 import { LinkedIn } from './icons/linkedin';
-import { FC } from 'react'
-type Style = React.CSSProperties
+import { FC, CSSProperties } from 'react'
+
+type Style = CSSProperties
 
 const footerStyles: Record<string, Style>= {
     footer: {

@@ -14,8 +14,8 @@ const myWorkStyles: Record<string, Style> = {
     },
     featured: {
         textAlign: 'center',
-        paddingTop: '5rem',
-        paddingBottom: '2rem',
+        paddingTop: '4rem',
+        paddingBottom: '3rem',
         fontSize: '35px',
         letterSpacing: '2px',
         lineHeight: '1.6',
@@ -53,7 +53,8 @@ const myWorkStyles: Record<string, Style> = {
         padding: '10px 0 5px 0'
     },
     p: {
-        lineHeight: '1.3'
+        lineHeight: '1.3',
+        textAlign: 'justify'
     },
     boxTop: {
         display: 'flex',

@@ -2,7 +2,7 @@ import { FC, useState, useEffect } from 'react';
 import './typingText.styles.css'; 
 
 export const TypingText: FC = () => {
-  const [text, setText] = useState<string>(''); // Ensure the state is typed correctly
+  const [text, setText] = useState<string>(''); 
   const fullText = 'Engaging our creativity together.';
 
   useEffect(() => {

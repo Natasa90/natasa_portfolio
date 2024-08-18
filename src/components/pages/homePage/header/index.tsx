@@ -1,5 +1,6 @@
 import { FC } from 'react'
 import './glowingTools.styles.css'
+import './h1.styles.css'
 import { DownloadButton } from './resumeButton/index'
 
 
@@ -14,6 +15,7 @@ const headerStyles: Record<string, Style> = {
         marginLeft: '5rem'
     },
     topText: {
+        textAlign: 'justify',
         marginTop: '2rem',
         paddingBottom: '40px',
         lineHeight: '1.6'
