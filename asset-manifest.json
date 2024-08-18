@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/%7Bnatasa_portfolio%7D/static/css/main.a8ae9ce0.css",
-    "main.js": "/%7Bnatasa_portfolio%7D/static/js/main.1007ff4c.js",
-    "static/js/453.fdd8400e.chunk.js": "/%7Bnatasa_portfolio%7D/static/js/453.fdd8400e.chunk.js",
-    "static/media/bookClub.png": "/%7Bnatasa_portfolio%7D/static/media/bookClub.1dcad027f8c1fb9498b1.png",
-    "static/media/recipes.png": "/%7Bnatasa_portfolio%7D/static/media/recipes.f608fefef7f839587365.png",
-    "static/media/fitnessApp.png": "/%7Bnatasa_portfolio%7D/static/media/fitnessApp.21c028a7736c5adca860.png",
-    "index.html": "/%7Bnatasa_portfolio%7D/index.html",
-    "main.a8ae9ce0.css.map": "/%7Bnatasa_portfolio%7D/static/css/main.a8ae9ce0.css.map",
-    "main.1007ff4c.js.map": "/%7Bnatasa_portfolio%7D/static/js/main.1007ff4c.js.map",
-    "453.fdd8400e.chunk.js.map": "/%7Bnatasa_portfolio%7D/static/js/453.fdd8400e.chunk.js.map"
+    "main.css": "/Natasa90/Porftolio-/static/css/main.a296b83c.css",
+    "main.js": "/Natasa90/Porftolio-/static/js/main.d8cdea01.js",
+    "static/js/952.e49b6ad9.chunk.js": "/Natasa90/Porftolio-/static/js/952.e49b6ad9.chunk.js",
+    "static/js/453.fdd8400e.chunk.js": "/Natasa90/Porftolio-/static/js/453.fdd8400e.chunk.js",
+    "static/media/bookClub.png": "/Natasa90/Porftolio-/static/media/bookClub.1dcad027f8c1fb9498b1.png",
+    "static/media/recipes.png": "/Natasa90/Porftolio-/static/media/recipes.f608fefef7f839587365.png",
+    "static/media/fitnessApp.png": "/Natasa90/Porftolio-/static/media/fitnessApp.21c028a7736c5adca860.png",
+    "index.html": "/Natasa90/Porftolio-/index.html",
+    "main.a296b83c.css.map": "/Natasa90/Porftolio-/static/css/main.a296b83c.css.map",
+    "main.d8cdea01.js.map": "/Natasa90/Porftolio-/static/js/main.d8cdea01.js.map",
+    "952.e49b6ad9.chunk.js.map": "/Natasa90/Porftolio-/static/js/952.e49b6ad9.chunk.js.map",
+    "453.fdd8400e.chunk.js.map": "/Natasa90/Porftolio-/static/js/453.fdd8400e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8ae9ce0.css",
-    "static/js/main.1007ff4c.js"
+    "static/css/main.a296b83c.css",
+    "static/js/main.d8cdea01.js"
   ]
 }
