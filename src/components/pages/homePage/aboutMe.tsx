@@ -17,7 +17,7 @@ const styles: Record<string, Style> = {
       padding: '30px',
       marginBottom: '10px',
       marginTop: '10px',
-      textAlign: 'center'
+      textAlign: 'center',
     },
     paragraph: {
       fontSize: '1.5rem',

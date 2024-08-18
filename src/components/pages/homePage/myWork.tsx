@@ -94,7 +94,7 @@ export const MyWork: FC = () => {
    return (
     <div style={myWorkStyles.bottom}>
         <div style={myWorkStyles.featured}>
-            Latest projects
+            <h1>Latest projects</h1>
         </div>
         <div style={myWorkStyles.boxTop}>
             <div style={myWorkStyles.col1}>
