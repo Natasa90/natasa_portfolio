@@ -1,7 +1,7 @@
 import { FC } from 'react'
-import recipeImage from './recipes.png'
-import bookClubImage from './bookClub.png'
-import fitnesAppImage from './fitnessApp.png'
+import recipeImage from '../../../assets/images/recipes.png'
+import bookClubImage from '../../../assets/images/bookClub.png'
+import fitnesAppImage from '../../../assets/images/fitnessApp.png'
 
 type Style = React.CSSProperties
 
@@ -21,6 +21,9 @@ const myWorkStyles: Record<string, Style> = {
         lineHeight: '1.6',
         fontWeight: '700',
         borderTop: '3px solid gray'
+    },
+    h1: {
+        margin: 'auto'
     },
     bottomImage: {
         width: '246px',
@@ -94,7 +97,7 @@ export const MyWork: FC = () => {
    return (
     <div style={myWorkStyles.bottom}>
         <div style={myWorkStyles.featured}>
-            <h1>Latest projects</h1>
+            <h1 style={myWorkStyles.h1}>Latest projects</h1>
         </div>
         <div style={myWorkStyles.boxTop}>
             <div style={myWorkStyles.col1}>
@@ -110,10 +113,10 @@ export const MyWork: FC = () => {
         </div>    
         <div style={myWorkStyles.boxMiddle}>
             <div style={myWorkStyles.col1}>
-                <a href='' target='_blank'><img style={myWorkStyles.bottomImage} src={bookClubImage} alt="Book Club App"/></a>
+                <a href='https://mndraca.github.io/BookReview-/' target='_blank'><img style={myWorkStyles.bottomImage} src={bookClubImage} alt="Book Club App"/></a>
             </div>
             <div style={myWorkStyles.col2}>
-                <a href='' target='_blank' style={{textDecoration:'none', color:'inherit'}}>
+                <a href='https://mndraca.github.io/BookReview-/' target='_blank' style={{textDecoration:'none', color:'inherit'}}>
                 <h2>Book Club</h2>
                 </a>
                 <p style={myWorkStyles.column}><span style={myWorkStyles.spanLeft} >2024</span><span style={myWorkStyles.spanRight}>Team work done right</span></p>
@@ -122,12 +125,12 @@ export const MyWork: FC = () => {
          </div>    
          <div style={myWorkStyles.boxBottom}>
             <div style={myWorkStyles.col1}>
-                <a href='' target='_blank'>
+                <a href='https://sdzika.github.io/workout-logging-form/' target='_blank'>
                     <img style={myWorkStyles.bottomImage} src={fitnesAppImage} alt="Fitnes App"/>
                 </a>
             </div>
             <div style={myWorkStyles.col2}>
-                 <a href='' target='_blank' style={{textDecoration:'none', color:'inherit'}}>
+                 <a href='https://sdzika.github.io/workout-logging-form/' target='_blank' style={{textDecoration:'none', color:'inherit'}}>
                     <h2>Fitness Tracker</h2>
                 </a>
                 <p style={myWorkStyles.column}><span style={myWorkStyles.spanLeft} >2024</span><span style={myWorkStyles.spanRight}>Creating beautiful fitness journey</span></p>

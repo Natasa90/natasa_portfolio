@@ -1,6 +1,7 @@
 import { FC } from 'react'
 import './glowingTools.styles.css'
 import './h1.styles.css'
+import womanCodingImage from '../../../../assets/images/womanCoding.jpeg'
 import { DownloadButton } from './resumeButton/index'
 
 
@@ -24,16 +25,14 @@ const headerStyles: Record<string, Style> = {
         flex: 2,
     },
     columnTwo: {
-        padding: '60px 60px 0 0',
-        flex: 1,
+        flex: 2,
     },
     h1: {
         fontSize: '2.65rem',
     },
-    profilePhoto: {
+    photo: {
         width: '450px',
         height: '443px',
-        borderRadius: '50%',
         border: '3px solid  #aaa8a8',
         boxShadow: '-4px 10px #EDF7FA',
     }
@@ -74,7 +73,7 @@ export const Header: FC = () => {
                 <DownloadButton/>
             </div>  
             <div style={headerStyles.columnTwo}>
-                <img style={headerStyles.profilePhoto} alt="profile photo" />
+                <img src={womanCodingImage} style={headerStyles.photo} alt="a woman coding" />
         </div>
     </div>  
     )
