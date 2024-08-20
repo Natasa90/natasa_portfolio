@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/natasa_portfolio/static/css/main.bb303228.css",
+    "main.css": "/natasa_portfolio/static/css/main.f4795724.css",
     "main.js": "/natasa_portfolio/static/js/main.873b0431.js",
     "static/js/952.e49b6ad9.chunk.js": "/natasa_portfolio/static/js/952.e49b6ad9.chunk.js",
     "static/js/453.fdd8400e.chunk.js": "/natasa_portfolio/static/js/453.fdd8400e.chunk.js",
@@ -9,13 +9,13 @@
     "static/media/recipes.png": "/natasa_portfolio/static/media/recipes.f608fefef7f839587365.png",
     "static/media/fitnessApp.png": "/natasa_portfolio/static/media/fitnessApp.21c028a7736c5adca860.png",
     "index.html": "/natasa_portfolio/index.html",
-    "main.bb303228.css.map": "/natasa_portfolio/static/css/main.bb303228.css.map",
+    "main.f4795724.css.map": "/natasa_portfolio/static/css/main.f4795724.css.map",
     "main.873b0431.js.map": "/natasa_portfolio/static/js/main.873b0431.js.map",
     "952.e49b6ad9.chunk.js.map": "/natasa_portfolio/static/js/952.e49b6ad9.chunk.js.map",
     "453.fdd8400e.chunk.js.map": "/natasa_portfolio/static/js/453.fdd8400e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb303228.css",
+    "static/css/main.f4795724.css",
     "static/js/main.873b0431.js"
   ]
 }
