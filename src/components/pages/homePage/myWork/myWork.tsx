@@ -1,7 +1,9 @@
 import { FC } from 'react'
-import recipeImage from '../../../assets/images/recipes.png'
-import bookClubImage from '../../../assets/images/bookClub.png'
-import fitnesAppImage from '../../../assets/images/fitnessApp.png'
+import './arrow.css'
+import recipeImage from '../../../../assets/images/recipes.png'
+import bookClubImage from '../../../../assets/images/bookClub.png'
+import fitnesAppImage from '../../../../assets/images/fitnessApp.png'
+
 
 type Style = React.CSSProperties
 
@@ -13,17 +15,23 @@ const myWorkStyles: Record<string, Style> = {
         marginLeft: '5rem'
     },
     featured: {
-        textAlign: 'center',
-        paddingTop: '4rem',
-        paddingBottom: '3rem',
-        fontSize: '35px',
-        letterSpacing: '2px',
-        lineHeight: '1.6',
-        fontWeight: '700',
-        borderTop: '3px solid gray'
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        paddingTop: '6rem',
+        paddingBottom: '5rem',
+        borderTop: '3px solid gray',
+        alignItems: 'center',
     },
-    h1: {
-        margin: 'auto'
+    header: {
+        fontSize: '2rem',
+        fontWeight: '700',
+        borderRadius: '10px',
+        backgroundColor: 'hsl(200, 46%, 41%)',
+        textAlign: 'center',
+        color: '#FFFFFF',
+        border: 'none',
+        padding: '1rem 10rem'
     },
     bottomImage: {
         width: '246px',
@@ -97,7 +105,11 @@ export const MyWork: FC = () => {
    return (
     <div style={myWorkStyles.bottom}>
         <div style={myWorkStyles.featured}>
-            <h1 style={myWorkStyles.h1}>Latest projects</h1>
+            <p style={myWorkStyles.header}>Recent work</p> 
+            <div className="arrow-container">
+                <div className="arrow-down">
+            </div>
+        </div>
         </div>
         <div style={myWorkStyles.boxTop}>
             <div style={myWorkStyles.col1}>

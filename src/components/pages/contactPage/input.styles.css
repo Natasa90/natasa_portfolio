@@ -127,8 +127,8 @@
     display: block;
     width: 1.5vw;
     height: 1.5vw;
-    border-bottom: 5px solid rgb(70, 41, 41);
-    border-right: 5px solid rgb(100, 63, 63);
+    border-bottom: 5px solid hsl(200, 46%, 41%);
+    border-right: 5px solid hsl(200, 46%, 41%);
     transform: rotate(45deg);
     margin: -10px;
     animation: animate 2s infinite;

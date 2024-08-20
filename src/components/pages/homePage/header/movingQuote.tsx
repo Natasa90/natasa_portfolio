@@ -5,7 +5,7 @@ export const Quote: FC = () => {
     return (
       <div className="quote-container">
         <p className="quote-text">
-        "Code is like humor. When you have to explain it, it’s bad." — Cory House
+        "Code is like humor. When you have to explain it, it’s bad." — <em>Cory House</em>
         </p>
       </div>
     );
