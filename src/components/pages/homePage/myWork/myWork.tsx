@@ -9,8 +9,8 @@ type Style = React.CSSProperties;
 const myWorkStyles: Record<string, Style> = {
   bottom: {
     borderRight: "3px solid gray",
-    marginRight: "200px",
-    marginLeft: "5rem",
+    borderLeft: "3px solid gray",
+    margin: "0 5rem",
   },
   featured: {
     display: "flex",
@@ -47,6 +47,9 @@ const myWorkStyles: Record<string, Style> = {
   span2: {
     color: "#8695A4",
     marginLeft: "1rem",
+  },
+  col1: {
+    paddingLeft: '2rem'
   },
   col2: {
     padding: "20px 0 2rem 5rem",

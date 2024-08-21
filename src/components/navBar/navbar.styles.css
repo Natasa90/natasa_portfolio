@@ -1,18 +1,25 @@
+/* Base styles */
 nav {
     background-color: #333; 
     color: #fff; 
     padding: 20px 0; 
+    position: relative;
 }
+
 nav ul {
     list-style-type: none; 
     text-align: center; 
     margin: 0; 
     padding: 0;
+    display: flex; 
+    justify-content: center;
 }
+
 nav ul li {
     display: inline; 
     margin-right: 20px; 
 }
+
 nav ul li a {
     color: #fff; 
     text-decoration: none; 
@@ -20,7 +27,59 @@ nav ul li a {
     padding: 10px 15px; 
     transition: all 0.3s ease; 
 }
+
 nav ul li a:hover {
     background-color: #555; 
     border-radius: 5px; 
+}
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 40px;
+}
+
+.menu-toggle .bar {
+    background-color: white;
+    height: 3px;
+    width: 25px;
+    margin: 4px 0;
+    transition: 0.3s;
+}
+
+@media (max-width: 768px) {
+    nav {
+        padding: 40px;
+    }
+    nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #333;
+        z-index: 1000; 
+    }
+
+    nav ul.open {
+        display: flex;
+        gap: 10px;
+        padding-bottom: 20px;
+    }
+
+    nav ul li {
+        display: block;
+        margin-right: 0;
+    }
+    .nav-links .open {
+        z-index: 200;
+
+    }
+    .menu-toggle {
+        display: flex;
+    }
 }
