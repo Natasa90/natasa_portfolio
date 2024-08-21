@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/natasa_portfolio/static/css/main.f4795724.css",
-    "main.js": "/natasa_portfolio/static/js/main.873b0431.js",
+    "main.css": "/natasa_portfolio/static/css/main.c2207fac.css",
+    "main.js": "/natasa_portfolio/static/js/main.9ee2ab51.js",
     "static/js/952.e49b6ad9.chunk.js": "/natasa_portfolio/static/js/952.e49b6ad9.chunk.js",
     "static/js/453.fdd8400e.chunk.js": "/natasa_portfolio/static/js/453.fdd8400e.chunk.js",
     "static/media/womanCoding.mp4": "/natasa_portfolio/static/media/womanCoding.354822ef7aa5a44b8155.mp4",
@@ -9,13 +9,13 @@
     "static/media/recipes.png": "/natasa_portfolio/static/media/recipes.f608fefef7f839587365.png",
     "static/media/fitnessApp.png": "/natasa_portfolio/static/media/fitnessApp.21c028a7736c5adca860.png",
     "index.html": "/natasa_portfolio/index.html",
-    "main.f4795724.css.map": "/natasa_portfolio/static/css/main.f4795724.css.map",
-    "main.873b0431.js.map": "/natasa_portfolio/static/js/main.873b0431.js.map",
+    "main.c2207fac.css.map": "/natasa_portfolio/static/css/main.c2207fac.css.map",
+    "main.9ee2ab51.js.map": "/natasa_portfolio/static/js/main.9ee2ab51.js.map",
     "952.e49b6ad9.chunk.js.map": "/natasa_portfolio/static/js/952.e49b6ad9.chunk.js.map",
     "453.fdd8400e.chunk.js.map": "/natasa_portfolio/static/js/453.fdd8400e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4795724.css",
-    "static/js/main.873b0431.js"
+    "static/css/main.c2207fac.css",
+    "static/js/main.9ee2ab51.js"
   ]
 }
